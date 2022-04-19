@@ -21,7 +21,7 @@ class UpdateUserForm(forms.ModelForm):
 #form para atualizar perfil
 class UpdateProfileForm(forms.ModelForm):
     class Meta:
-        models = Profile
+        model = Profile
         fields = ['status_info', 'profile_photo']
         
 #form para criar post
